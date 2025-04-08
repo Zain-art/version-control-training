@@ -4,7 +4,7 @@ from evolve import *
 class TestEvolveMethods(unittest.TestCase):
 
     def test_fitness(self):
-        self.assertEqual(fitness("abcd", "axxd"), 2)
+        self.assertEqual(fitness("abcd", "axxd this is my main branch "), 2)
         self.assertEqual(fitness("abcd", "abcd"), 4)
         self.assertEqual(fitness("abcd", "wxyz"), 0)
 
