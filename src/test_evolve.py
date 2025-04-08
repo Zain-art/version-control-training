@@ -4,12 +4,18 @@ from evolve import *
 class TestEvolveMethods(unittest.TestCase):
 
     def test_fitness(self):
+<<<<<<< HEAD
         self.assertEqual(fitness("abcd", "axxd this is my main branch "), 2)
         self.assertEqual(fitness("abcd", "abcd"), 4)
         self.assertEqual(fitness("abcd", "wxyz"), 0)
+=======
+        self.assertEqual(fitness("abcd", "axxd1111,this is assertequal method"), 2)
+        self.assertEqual(fitness("abcd", "abcd this is last commit and go back original "), 4)
+        self.assertEqual(fitness("abcd", "wxyz manually command "), 0)
+>>>>>>> command-line-ui
 
     def test_mutaterate(self):
-        self.assertEqual(mutaterate("abcd", "wxyz"), 1)
+        self.assertEqual(mutaterate("abcd", "wxyz11111"), 1)
         self.assertEqual(mutaterate("abcd", "abce"), 0.25)
         self.assertEqual(mutaterate("abcd", "abcd"), 0)
 

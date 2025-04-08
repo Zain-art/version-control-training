@@ -1,4 +1,4 @@
-"""Module for simulating evolution of strings."""
+"""Module for simulating evolution of strings. I read a string from the user input....@@"""
 from random import choice, random
 from functools import partial
 
