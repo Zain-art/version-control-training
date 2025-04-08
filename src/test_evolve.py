@@ -5,7 +5,7 @@ class TestEvolveMethods(unittest.TestCase):
 
     def test_fitness(self):
         self.assertEqual(fitness("abcd", "axxd1111,this is assertequal method"), 2)
-        self.assertEqual(fitness("abcd", "abcd"), 4)
+        self.assertEqual(fitness("abcd", "abcd this is last commit and go back original "), 4)
         self.assertEqual(fitness("abcd", "wxyz"), 0)
 
     def test_mutaterate(self):
