@@ -6,9 +6,9 @@ class TestEvolveMethods(unittest.TestCase):
     def test_fitness(self):
 
         self.assertEqual(fitness("abcd", "axxd this is my main branch "), 2)
-<<<<<<< HEAD
+
         self.assertEqual(fitness("abcd", "abcd "), 4)
-=======
+
         self.assertEqual(fitness("abcd", "abcd"), 4)
 
 
@@ -18,7 +18,7 @@ class TestEvolveMethods(unittest.TestCase):
         self.assertEqual(fitness("abcd", "abcd this is last commit and go back original "), 4)
 
 # >>>>>>> 6ef971c5985ccdce0efae371283d5a93d9f2f313
->>>>>>> main
+
         self.assertEqual(fitness("abcd", "wxyz"), 0)
 
         self.assertEqual(fitness("abcd", "axxd1111,this is assertequal method"), 2)
