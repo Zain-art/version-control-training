@@ -21,7 +21,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: yourdockerhubusername/python-app:latest
+          tags: zainmk280/python-app:latest
   test:
     runs-on: ubuntu-latest
     steps:
