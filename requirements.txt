@@ -1,0 +1,10 @@
+# Basic Python packages
+requests==2.31.0
+
+
+# If you're building a web app with Flask
+Flask==3.0.2
+
+# OR if you're using FastAPI
+# fastapi==0.110.0
+# uvicorn==0.29.0
